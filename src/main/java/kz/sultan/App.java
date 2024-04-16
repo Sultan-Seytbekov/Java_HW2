@@ -1,5 +1,7 @@
 package kz.sultan;
 
+import java.util.Arrays;
+
 public class App {
     public static void main(String[] args) {
 
@@ -12,14 +14,14 @@ public class App {
             else
                 arr[i] = 1;
         }
-        System.out.println("Exercise 1 :" + java.util.Arrays.toString(arr));
+        System.out.println("Exercise 1 :" + Arrays.toString(arr));
 
         // 2 exercise
         int[] arr2 = new int[8];
         for (int i = 0; i < arr2.length; i++) {
             arr2[i] = i * 3;
         }
-        System.out.println("Exercise 2: " + java.util.Arrays.toString(arr2));
+        System.out.println("Exercise 2: " + Arrays.toString(arr2));
 
 
         // 3 exercise
@@ -28,7 +30,7 @@ public class App {
             if(arr3[i] < 6)
                 arr3[i] = arr3[i] * 2;
         }
-        System.out.println("Exercise 3: " + java.util.Arrays.toString(arr3));
+        System.out.println("Exercise 3: " + Arrays.toString(arr3));
 
         // 4 exercise
         int[][] array4 = new int[5][5];
@@ -38,7 +40,7 @@ public class App {
         }
         System.out.println("Exercise 4: ");
         for(int i = 0; i < array4.length; i++) {
-            System.out.println(java.util.Arrays.toString(array4[i]));
+            System.out.println(Arrays.toString(array4[i]));
         }
 
         // 5 exercise
@@ -63,7 +65,7 @@ public class App {
         // 7 exercise
         int[] array7 = {1, 2, 3, 4, 5, 6, 7, 8, 9};
         shiftArray(array7, 3);
-        System.out.println("Exercise 7: " + java.util.Arrays.toString(array7));
+        System.out.println("Exercise 7: " + Arrays.toString(array7));
     }
 
     // 6 method
